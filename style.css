@@ -1,0 +1,138 @@
+/* fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* common styles */
+body{
+    background-color: #F3F1FF;
+    font-family: 'Poppins', sans-serif;
+}
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.container{
+    background-color: #FFFFFF;
+    width: 870px;
+    padding: 30px;
+}
+hr{
+    border: 1px solid #D1D1D1;
+}
+/* top players styles */
+.top-players{
+    margin-bottom: 30px;
+}
+.section-title{
+    color: #562EFF;
+    ;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 33px-;
+}
+.player{
+    display: flex;
+    align-items: center;
+}
+.player img {
+    width: 56px;
+    height: 56px;
+}
+.player-name{
+    margin-left: 16px;
+}
+
+
+/* blog sections */
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.blog{
+    display: flex;
+}
+.blog img {
+    width: 177px;
+    height: 117px;
+}
+.blog-info{
+    margin-left: 16px;
+}
+.blog-title{
+    font-size: 20px;
+}
+.blog-author a{
+    font-size: 16px;
+    text-decoration: none;
+    color: royalblue;
+}
+
+/* course sections */
+.container2{}
+.top-courses{
+    background-color: white;
+    margin: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+}
+.top-courses .section-title{
+    padding-left: 30px;
+}
+.courses{
+    width: 870px;
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+}
+.courses .thumbnail img{
+    width: 224px;
+    height: 120px;
+}
+.course-info h3{
+    font-size: 22px;
+    margin: 1px;
+}
+.course{
+    width: 252px;
+    height: 270px;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0px 5px  13px rgba(0, 0, 0, 0.05);
+}
+.author{
+    color: #FF4A60;
+    font-size: 15px;
+    font-weight: 200;
+    margin: 5px 0px 10px 0px;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.icons .left i{
+    font-size: 13px;
+    width: 14px;
+}
+.yellow{
+    color: orange;
+}
+.white{
+    color: rgb(211, 209, 209);
+    height: 12px;
+}
+.timer{
+    color: 
+    #FF4A60;
+    border-radius: 15px;
+    height:32px;
+    width: 100px;
+    background-color: #ffd6dd;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+}
